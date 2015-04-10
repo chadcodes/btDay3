@@ -62,9 +62,6 @@ int startCounter(int min, int max) {
   while (counter < max) {
     NSLog(@"The counter is at : %d",counter);
     counter++;
-//    if (min == max) {
-//      break;
-//    }
   }
   return 0;
 }
